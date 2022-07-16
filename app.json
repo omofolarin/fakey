@@ -17,14 +17,19 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      "@notifee/react-native"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "io.expo.fakey"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "io.expo.fakey"
     },
     "web": {
       "favicon": "./assets/favicon.png"
