@@ -14,11 +14,18 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "plugins": [
-      "@notifee/react-native"
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "@notifee/react-native",
+      "@react-native-firebase/app"
     ],
     "ios": {
       "supportsTablet": true,

@@ -28,6 +28,12 @@
           <string>io.expo.fakey</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.61689546475-ktsfgv403gplb0r1iorvh27cblhfurh9</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
@@ -46,6 +52,24 @@
         </dict>
       </dict>
     </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>Allow $(PRODUCT_NAME) to access your contacts</string>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+      <dict>
+        <key>UIApplicationShortcutItemIconType</key>
+        <string>UIApplicationShortcutIconTypeLocation</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>Action Title</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>$(PRODUCT_BUNDLE_IDENTIFIER).action</string>
+      </dict>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61689546475",
+    "project_id": "fakey-f4d28",
+    "storage_bucket": "fakey-f4d28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61689546475:android:0a617701dc15776fe8a0ae",
+        "android_client_info": {
+          "package_name": "io.expo.fakey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61689546475-ubmaun11dvn3r9tb8krt7768f1vd3m48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvK_H3WE6eSTz0IlDiBQtFGRgWKdxASHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61689546475-ubmaun11dvn3r9tb8krt7768f1vd3m48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
