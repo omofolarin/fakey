@@ -25,7 +25,8 @@
         }
       ],
       "@notifee/react-native",
-      "@react-native-firebase/app"
+      "@react-native-firebase/app",
+      "@react-native-firebase/crashlytics"
     ],
     "ios": {
       "supportsTablet": true,
