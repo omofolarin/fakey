@@ -31,6 +31,13 @@ Linking.openURL(`tel:${phoneNumber}`)
 [FCM messages can be sent to real Android/iOS devices and Android emulators (iOS simulators however do not handle cloud messages) via a number of methods (see below)](https://rnfirebase.io/messaging/usage)
 
 
+### GET STARTED:
+
+run `yarn install`
+run `yarn run android` for android
+run `yarn run ios` for ios
+
+
 ### FEATURES:
     - Retrieve users contacts with Expo Contacts
     - Quick Call Me from any contact amongst the user’s contacts using React Native Quick Action for the quick dial feature.
@@ -39,6 +46,14 @@ Linking.openURL(`tel:${phoneNumber}`)
     - React errorboundary and Errorboundary component
     - Remote push notification feature
     - Remote push notification feature
+    - Handled states
+      - loading
+      - success
+      - error
+      - push notification permission denied
+    - miniature theme implementation
+      -  light and dark mode (dark mode was not implemented)
+      -  typography, colors, spacing, and layout 
     - local push notification feature with a push notification button using notifee
       - Android: 
         -  Notifee custom sound for push notification
