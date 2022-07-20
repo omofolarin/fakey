@@ -41,6 +41,9 @@ run `yarn run ios` for ios
 ### FEATURES:
     - Retrieve users contacts with Expo Contacts
     - Quick Call Me from any contact amongst the user’s contacts using React Native Quick Action for the quick dial feature.
+      - add quick action from any contact
+      - sync info with local storage
+      - clear all quick actions
     - Persists and track quick actions contacts with async storage.
     - Crashlytics to log errors
     - React errorboundary and Errorboundary component
