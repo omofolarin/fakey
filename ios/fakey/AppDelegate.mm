@@ -103,13 +103,13 @@
 
 // Universal Links
 - (BOOL)application:(UIApplication *)application
+ openURL:(NSURL *)url
+   options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
     continueUserActivity:(nonnull NSUserActivity *)userActivity
       restorationHandler:
           (nonnull void (^)(NSArray<id<UIUserActivityRestoring>> *_Nullable))
               restorationHandler {
-  BOOL result = [RCTLinkingManager application:application
-                          continueUserActivity:userActivity
-                            restorationHandler:restorationHandler];
+  BOOL result = [RCTLinkingManager application:application openURL:url options:options];
   return [super application:application
              continueUserActivity:userActivity
                restorationHandler:restorationHandler] ||

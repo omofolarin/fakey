@@ -125,7 +125,7 @@ export const ContactList: FC<Props> = (props) => {
     const subscription = quickActionShortcut.current.addListener(
       "quickActionShortcut",
       (data: QuickActions.ShortcutItem) => {
-        Linking.openURL(`tel:${JSON.parse(data.userInfo.url).phoneNumber}`);
+        Linking.openURL(`tel://${JSON.parse(data.userInfo.url).phoneNumber}`);
       }
     );
 

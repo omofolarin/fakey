@@ -3,9 +3,10 @@
 
 [Adding custom native code to expo](https://docs.expo.dev/workflow/customizing/)
 [React native firebase](https://rnfirebase.io/)
+[Deep linking](https://reactnavigation.org/docs/deep-linking/)
+
 REFERENCE: [Notifee iOS Press action](https://notifee.app/react-native/docs/ios/interaction#press-action)
 REFERENCE: [Notifee iOS setup](https://notifee.app/react-native/docs/ios/interaction#press-action)
-
 
 
 
@@ -25,7 +26,7 @@ REFERENCE: [Press action](https://notifee.app/react-native/docs/ios/interaction#
 
 
 import {Linking} from 'react-native'
-Linking.openURL(`tel:${phoneNumber}`)
+Linking.openURL(`tel://${phoneNumber}`)
 
 ###  CAVEAT: 
 [FCM messages can be sent to real Android/iOS devices and Android emulators (iOS simulators however do not handle cloud messages) via a number of methods (see below)](https://rnfirebase.io/messaging/usage)
@@ -72,3 +73,31 @@ run `yarn run ios` for ios
      - Mock external and native modules.
      - Simple but limited testing...
      - Working branch and git history is on `develop` branch
+
+
+### Environment
+
+```
+npx react-native doctor
+Common
+ ✓ Node.js
+ ✓ yarn
+ ✖ Watchman - Used for watching changes in the filesystem when in development mode
+   - Version found: 2022.03.21.00
+   - Version supported: 4.x
+
+Android
+ ✓ JDK
+ ✓ Android Studio - Required for building and installing your app on Android
+ ✖ Android SDK - Required for building and installing your app on Android
+   - Versions found: 28.0.3, 29.0.2, 30.0.2, 30.0.3, 31.0.0, 32.0.0, 32.1.0
+   - Version supported: .b31.0.0
+ ✓ ANDROID_HOME
+
+iOS
+ ✓ Xcode - Required for building and installing your app on iOS
+ ✓ CocoaPods - Required for installing iOS dependencies
+ ✓ ios-deploy - Required for installing your app on a physical device with the CLI
+
+xcode 13.2.1
+```
