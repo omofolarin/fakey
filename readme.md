@@ -51,3 +51,4 @@ Linking.openURL(`tel:${phoneNumber}`)
      - Configured test environment
      - Mock external and native modules.
      - Simple but limited testing...
+     - Working branch and git history is on `develop` branch
