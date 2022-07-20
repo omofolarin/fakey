@@ -48,7 +48,7 @@ run `yarn run ios` for ios
     - Crashlytics to log errors
     - React errorboundary and Errorboundary component
     - Local push notification feature
-    - Remote push notification feature
+    - Remote push notification feature and firebase remote messaging
     - Handled states
       - loading
       - success
@@ -100,3 +100,4 @@ iOS
 
 xcode 13.2.1
 ```
+
