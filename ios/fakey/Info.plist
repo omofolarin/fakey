@@ -60,7 +60,7 @@
         <key>UIApplicationShortcutItemIconType</key>
         <string>UIApplicationShortcutIconTypeLocation</string>
         <key>UIApplicationShortcutItemTitle</key>
-        <string>Action Title</string>
+        <string>Quick call actions</string>
         <key>UIApplicationShortcutItemType</key>
         <string>$(PRODUCT_BUNDLE_IDENTIFIER).action</string>
       </dict>

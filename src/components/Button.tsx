@@ -36,7 +36,7 @@ export const Button: FC<Props> = (props) => {
       onPress={onPress}
       style={[
         StyleSheet.flatten([
-          theme.px4,
+          theme.px6,
           theme.py4,
           themeColorStyle,
           theme.borderRadius4,

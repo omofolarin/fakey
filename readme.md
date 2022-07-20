@@ -15,3 +15,6 @@ TODO: [https://notifee.app/react-native/docs/ios/interaction#press-action](Press
 
 import {Linking} from 'react-native'
 Linking.openURL(`tel:${phoneNumber}`)
+
+
+CAVEAT: [https://rnfirebase.io/messaging/usage](FCM messages can be sent to real Android/iOS devices and Android emulators (iOS simulators however do not handle cloud messages) via a number of methods (see below))

@@ -21,6 +21,9 @@ const layoutTheme = StyleSheet.create({
   minFullScreenH: {
     minHeight: Dimensions.get("window").height,
   },
+  minFullScreenHeightHalf: {
+    minHeight: Dimensions.get("window").height * 0.5,
+  },
   itemsCenter: {
     alignItems: "center",
   },
