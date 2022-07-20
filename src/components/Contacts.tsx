@@ -99,7 +99,9 @@ export const Contacts: FC<Props> = (props) => {
         </Text>
       </View>
 
-      <View style={[theme.px6]}>{renderContent()}</View>
+      <View style={[theme.px6]} testID="contactView">
+        {renderContent()}
+      </View>
     </View>
   );
 };

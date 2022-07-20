@@ -3,6 +3,7 @@ import { Platform } from "react-native";
 import crashlytics from "@react-native-firebase/crashlytics";
 import firestore from "@react-native-firebase/firestore";
 import messaging from "@react-native-firebase/messaging";
+
 export async function createPushNotificationToken() {
   try {
     if (Platform.OS === "android") {

@@ -21,6 +21,7 @@ export const EmptyState: FC<Props> = (props) => {
         theme.column,
         theme.py12,
       ]}
+      testID="emptyState"
     >
       <Text style={[theme.headline5Typography, theme.textCenter]}>{title}</Text>
       <Text style={[theme.body1Typography, theme.textCenter]}>{subTitle}</Text>
