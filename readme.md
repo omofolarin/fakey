@@ -1,6 +1,7 @@
 
 ### RESOURCES
 
+[Adding custom native code to expo](https://docs.expo.dev/workflow/customizing/)
 [React native firebase](https://rnfirebase.io/)
 REFERENCE: [Notifee iOS Press action](https://notifee.app/react-native/docs/ios/interaction#press-action)
 REFERENCE: [Notifee iOS setup](https://notifee.app/react-native/docs/ios/interaction#press-action)
