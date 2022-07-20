@@ -35,6 +35,7 @@ Linking.openURL(`tel:${phoneNumber}`)
     - Quick Call Me from any contact amongst the user’s contacts using React Native Quick Action for the quick dial feature.
     - Persists and track quick actions contacts with async storage.
     - Crashlytics to log errors
+    - React errorboundary and Errorboundary component
     - Remote push notification feature
     - Remote push notification feature
     - local push notification feature with a push notification button using notifee
