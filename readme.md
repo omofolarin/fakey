@@ -45,10 +45,9 @@ run `yarn run ios` for ios
       - add quick action from any contact
       - sync info with local storage
       - clear all quick actions
-    - Persists and track quick actions contacts with async storage.
     - Crashlytics to log errors
     - React errorboundary and Errorboundary component
-    - Remote push notification feature
+    - Local push notification feature
     - Remote push notification feature
     - Handled states
       - loading
